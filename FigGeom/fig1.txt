@@ -1,0 +1,5 @@
+FigGeom (3): @=0053F7E0, 4 sommets, perimetre=   5.657, couleur=0000FF00 :
+  sommet [ 0] = (     1.000,     0.000)
+  sommet [ 1] = (     0.000,     1.000)
+  sommet [ 2] = (    -1.000,     0.000)
+  sommet [ 3] = (    -0.000,    -1.000)
