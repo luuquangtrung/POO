@@ -4,10 +4,32 @@
 
 class CDessin1
 {
-  CFigGeom tri, rect, penta;
+  CFigGeom tri, carre, penta;
 public:
-  CDessin1(unsigned color):tri(3,color),rect(4,color),penta(5,color) {}
+  CDessin1(unsigned int color):tri(3,color),carre(4,color),penta(5,color) {}
+  FILE* Affiche(FILE* pf) const
+  {
+    fprintf(pf,"CDessin1 @%p :\n",this);
+    return pf<<tri<<carre<<penta;
+  }
 };
+
+inline FILE* operator<<(FILE* pf, CDessin1& d) {d.Affiche(pf); return pf;}
+
+class CDessin2
+{
+  CFigGeom f1, f2, f3;
+public:
+  CDessin2(size_t n, unsigned int c=0xFFFFFF): f1(n,c), f2(n+1,c), f3(n+2,c) {}
+  FILE* Affiche(FILE* pf) const
+  {
+    fprintf(pf,"CDessin2 @%p :\n",this);
+    return pf<<f1<<f2<<f3;
+  }
+};
+
+inline FILE* operator<<(FILE* pf, CDessin2& d) {d.Affiche(pf); return pf;}
+
 /********************* fonctions de test unitaires ************************/
 void test1()
 {

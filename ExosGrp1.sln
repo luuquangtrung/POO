@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProtectConst", "ProtectConst\ProtectConst.vcproj", "{1199A94F-7229-464F-BC04-085A1192E03F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fract", "Fract\Fract.vcproj", "{0C93BF93-546E-4188-A058-87E126AED515}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functor", "Functor\Functor.vcproj", "{84B3DDB9-0F82-482C-BA7E-06CBC9E637DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FigGeom", "FigGeom\FigGeom.vcproj", "{ECF7D96F-C152-496B-9635-26D46997A00F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FluxCpp", "FluxCpp\FluxCpp.vcproj", "{E2F21552-29E8-4908-BEA1-A30B47926741}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1199A94F-7229-464F-BC04-085A1192E03F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1199A94F-7229-464F-BC04-085A1192E03F}.Debug|Win32.Build.0 = Debug|Win32
+		{1199A94F-7229-464F-BC04-085A1192E03F}.Release|Win32.ActiveCfg = Release|Win32
+		{1199A94F-7229-464F-BC04-085A1192E03F}.Release|Win32.Build.0 = Release|Win32
+		{0C93BF93-546E-4188-A058-87E126AED515}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C93BF93-546E-4188-A058-87E126AED515}.Debug|Win32.Build.0 = Debug|Win32
+		{0C93BF93-546E-4188-A058-87E126AED515}.Release|Win32.ActiveCfg = Release|Win32
+		{0C93BF93-546E-4188-A058-87E126AED515}.Release|Win32.Build.0 = Release|Win32
+		{84B3DDB9-0F82-482C-BA7E-06CBC9E637DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{84B3DDB9-0F82-482C-BA7E-06CBC9E637DE}.Debug|Win32.Build.0 = Debug|Win32
+		{84B3DDB9-0F82-482C-BA7E-06CBC9E637DE}.Release|Win32.ActiveCfg = Release|Win32
+		{84B3DDB9-0F82-482C-BA7E-06CBC9E637DE}.Release|Win32.Build.0 = Release|Win32
+		{ECF7D96F-C152-496B-9635-26D46997A00F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECF7D96F-C152-496B-9635-26D46997A00F}.Debug|Win32.Build.0 = Debug|Win32
+		{ECF7D96F-C152-496B-9635-26D46997A00F}.Release|Win32.ActiveCfg = Release|Win32
+		{ECF7D96F-C152-496B-9635-26D46997A00F}.Release|Win32.Build.0 = Release|Win32
+		{E2F21552-29E8-4908-BEA1-A30B47926741}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2F21552-29E8-4908-BEA1-A30B47926741}.Debug|Win32.Build.0 = Debug|Win32
+		{E2F21552-29E8-4908-BEA1-A30B47926741}.Release|Win32.ActiveCfg = Release|Win32
+		{E2F21552-29E8-4908-BEA1-A30B47926741}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
