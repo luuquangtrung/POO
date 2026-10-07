@@ -1,0 +1,8 @@
+Ouverture de log
+Ctor de CCouleur 16711935
+Ctor de CPointCouleur2D
+Ctor de CPointCouleur2D
+Dtor de CPointCouleur2D
+Dtor de CPointCouleur2D
+Dtor de CCouleur
+Fermeture de log

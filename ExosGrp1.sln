@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FigGeom", "FigGeom\FigGeom.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FluxCpp", "FluxCpp\FluxCpp.vcproj", "{E2F21552-29E8-4908-BEA1-A30B47926741}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HeritMult", "HeritMult\HeritMult.vcproj", "{22716E16-0DEE-4E1D-95C2-DEB0A8B7544D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -37,6 +39,10 @@ Global
 		{E2F21552-29E8-4908-BEA1-A30B47926741}.Debug|Win32.Build.0 = Debug|Win32
 		{E2F21552-29E8-4908-BEA1-A30B47926741}.Release|Win32.ActiveCfg = Release|Win32
 		{E2F21552-29E8-4908-BEA1-A30B47926741}.Release|Win32.Build.0 = Release|Win32
+		{22716E16-0DEE-4E1D-95C2-DEB0A8B7544D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{22716E16-0DEE-4E1D-95C2-DEB0A8B7544D}.Debug|Win32.Build.0 = Debug|Win32
+		{22716E16-0DEE-4E1D-95C2-DEB0A8B7544D}.Release|Win32.ActiveCfg = Release|Win32
+		{22716E16-0DEE-4E1D-95C2-DEB0A8B7544D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
