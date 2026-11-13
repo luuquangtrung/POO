@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstFunct", "ConstFunct\ConstFunct.vcproj", "{C854471B-2086-46E2-9669-1AABAB578023}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDLL", "TestDLL\TestDLL.vcproj", "{2052BFD5-2501-4DE5-9410-84A097F97C9D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fract", "Fract\Fract.vcproj", "{87824CC4-E00B-4F6C-8AF0-D4EA2D72798D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functor", "Functor\Functor.vcproj", "{323DBBC4-6226-4DA0-BCFA-BA5A8E423E99}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FigGeom", "FigGeom\FigGeom.vcproj", "{ECF7D96F-C152-496B-9635-26D46997A00F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FluxCpp", "FluxCpp\FluxCpp.vcproj", "{6418D055-AD54-4CF4-AA7E-BF3167B7373C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PHD", "PHD\PHD.vcproj", "{53E8753E-A01A-43C6-A56D-93E3883C3831}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C854471B-2086-46E2-9669-1AABAB578023}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C854471B-2086-46E2-9669-1AABAB578023}.Debug|Win32.Build.0 = Debug|Win32
+		{C854471B-2086-46E2-9669-1AABAB578023}.Release|Win32.ActiveCfg = Release|Win32
+		{C854471B-2086-46E2-9669-1AABAB578023}.Release|Win32.Build.0 = Release|Win32
+		{2052BFD5-2501-4DE5-9410-84A097F97C9D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2052BFD5-2501-4DE5-9410-84A097F97C9D}.Debug|Win32.Build.0 = Debug|Win32
+		{2052BFD5-2501-4DE5-9410-84A097F97C9D}.Release|Win32.ActiveCfg = Release|Win32
+		{2052BFD5-2501-4DE5-9410-84A097F97C9D}.Release|Win32.Build.0 = Release|Win32
+		{87824CC4-E00B-4F6C-8AF0-D4EA2D72798D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87824CC4-E00B-4F6C-8AF0-D4EA2D72798D}.Debug|Win32.Build.0 = Debug|Win32
+		{87824CC4-E00B-4F6C-8AF0-D4EA2D72798D}.Release|Win32.ActiveCfg = Release|Win32
+		{87824CC4-E00B-4F6C-8AF0-D4EA2D72798D}.Release|Win32.Build.0 = Release|Win32
+		{323DBBC4-6226-4DA0-BCFA-BA5A8E423E99}.Debug|Win32.ActiveCfg = Debug|Win32
+		{323DBBC4-6226-4DA0-BCFA-BA5A8E423E99}.Debug|Win32.Build.0 = Debug|Win32
+		{323DBBC4-6226-4DA0-BCFA-BA5A8E423E99}.Release|Win32.ActiveCfg = Release|Win32
+		{323DBBC4-6226-4DA0-BCFA-BA5A8E423E99}.Release|Win32.Build.0 = Release|Win32
+		{ECF7D96F-C152-496B-9635-26D46997A00F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECF7D96F-C152-496B-9635-26D46997A00F}.Debug|Win32.Build.0 = Debug|Win32
+		{ECF7D96F-C152-496B-9635-26D46997A00F}.Release|Win32.ActiveCfg = Release|Win32
+		{ECF7D96F-C152-496B-9635-26D46997A00F}.Release|Win32.Build.0 = Release|Win32
+		{6418D055-AD54-4CF4-AA7E-BF3167B7373C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6418D055-AD54-4CF4-AA7E-BF3167B7373C}.Debug|Win32.Build.0 = Debug|Win32
+		{6418D055-AD54-4CF4-AA7E-BF3167B7373C}.Release|Win32.ActiveCfg = Release|Win32
+		{6418D055-AD54-4CF4-AA7E-BF3167B7373C}.Release|Win32.Build.0 = Release|Win32
+		{53E8753E-A01A-43C6-A56D-93E3883C3831}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53E8753E-A01A-43C6-A56D-93E3883C3831}.Debug|Win32.Build.0 = Debug|Win32
+		{53E8753E-A01A-43C6-A56D-93E3883C3831}.Release|Win32.ActiveCfg = Release|Win32
+		{53E8753E-A01A-43C6-A56D-93E3883C3831}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

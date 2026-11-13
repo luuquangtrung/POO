@@ -1,5 +1,7 @@
+//#pragma once
 #ifndef _FRACT_H_
 #define _FRACT_H_
+
 #include <stdio.h>
 #include <stdlib.h>
 #define _USE_MATH_DEFINES
@@ -88,4 +90,4 @@ public:
   operator double() const { return a/(double)b; }
 };
 
-#endif //_FRACT_H_
+#endif // _FRACT_H_

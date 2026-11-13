@@ -3,10 +3,9 @@
 
 #include <iostream>
 #include <iomanip>
-#include <sstream>
+#include <stdlib.h>
 #define _USE_MATH_DEFINES
 #include <math.h>
-#include "ConsoleColor.h"
 #include "isHelper.h"
 //! CFract modélise une fraction de nombres entiers
 //! Version release, flux C, ctors implicites et opérateurs de typecast vers float et double
@@ -42,15 +41,13 @@ public:
   operator double() const { printf("CFract::double\n"); return a/(double)b; }
 #else
   CFract(int _a=0, int _b=1):a(_a), b(_b==0 ? 1 : _b) { Norm(); } 
-  std::ostream& Affiche(std::ostream& os) const 
-  { using namespace ConsoleColor; return os<<Push<<FHRed<<'('<<a<<'/'<<b<<')'<<Pop; }
+  std::ostream& Affiche(std::ostream& os) const { return os<<'('<<a<<'/'<<b<<')';}
   //! opérateurs de typecast
   operator float() const { return a/(float)b; }
   operator double() const { return a/(double)b; }
 #endif
   void Affiche() const { Affiche(std::cout); }
-  //bool Read(std::istream& is) { char c1, c2, c3; is>>c1>>a>>c2>>b>>c3; return !!is && c1=='(' && c2=='/' && c3==')'; }
-  //bool Read(std::istream& is) { return !!( is>>'('>>a>>'/'>>b>>')'); }
+  //bool Read(std::istream& is) { char c1,c2,c3; is>>c1>>a>>c2>>b>>c3; return !!is && c1=='(' && c2=='/' && c3==')';}
   std::istream& Read(std::istream& is) { return is>>'('>>a>>'/'>>b>>')'; }
   CFract& MultTo(const CFract& f) { a*=f.a; b*=f.b; Norm(); return *this; }
   CFract& AddTo(const CFract& f) { a=a*f.b+b*f.a; b*=f.b; Norm(); return *this; }
@@ -99,8 +96,7 @@ public:
   //! opérateur(s) parenthèses: notre choix => fonctionnement comme des setters
   CFract& operator()(int _a=0, int _b=1) { return *this=CFract(_a,_b); }
 };
-
 inline std::ostream& operator<<(std::ostream& os, const CFract& f) { return f.Affiche(os); }
-inline std::istream& operator>>(std::istream& is, CFract& f) {  return f.Read(is); }
+inline std::istream& operator>>(std::istream& is, CFract& f) { return f.Read(is); }
 
 #endif // FRACT_H

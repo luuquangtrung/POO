@@ -28,7 +28,7 @@ void test0()
   Gene g(10,5);
   for(float t=0; t<0.2f; t+=0.01f) printf("g(%6.3f)=%6.3f\n",t,g(t)); 
 #ifdef TEST_FINTERV
-  for(FInterv t(0,0.2f,0.01f); t; ++t) printf("g(%6.3f)=%6.3f\n",float(t),g(t)); 
+  for(FInterv t(0,0.2f,0.01f); t; ++t) printf("g(%6.3f)=%6.3f\n",/*float(*/t/*)*/,g(t)); 
 #endif
 }
 

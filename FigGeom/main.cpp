@@ -51,11 +51,10 @@ void test1()
   f3.Affiche();
 }
 
-CFigGeom fglob(10,0x112233);
 void test2()
 {
   BeginEnd;
-  //static CFigGeom fstat(100);
+  static CFigGeom fstat(100);
   const float x[]={0,2,2,0}, y[]={0,0,2,2};
   CFigGeom f1(4,0x00FF00), f2(7,0xAABBCC);
   stdout << f1 << f2;
@@ -75,9 +74,9 @@ void test2()
 void test3()
 {
   BeginEnd;
-  //CDessin1(0xFF00FF).Affiche(stdout);
-  //CDessin1(0xABCDEF).Affiche(stdout);
-  //stdout<<CDessin1(0x0000FF)<<CDessin1(0xFF0000);
+  CDessin1(0xFF00FF).Affiche(stdout);
+  CDessin1(0xABCDEF).Affiche(stdout);
+  stdout<<CDessin1(0x0000FF)<<CDessin1(0xFF0000);
 }
 
 void main()
@@ -85,11 +84,10 @@ void main()
   BeginEnd;
   CFigGeom::ShowInfo();
   test1();
-  test1();
   CFigGeom::ShowInfo();
   test2();
   CFigGeom::ShowInfo(); test2();
-  //CFigGeom::ShowInfo();
+  CFigGeom::ShowInfo();
   //test3();
   printf("Memory leaks : %s\n",_CrtDumpMemoryLeaks()?"YES":"NO");
 }
